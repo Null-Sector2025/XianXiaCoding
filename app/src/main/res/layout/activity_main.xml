@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFAF0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修仙编程语言"
+        android:textSize="24sp"
+        android:textColor="#8B4513"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et_code"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="在此输入修仙代码..."
+        android:gravity="top"
+        android:textSize="14sp"
+        android:background="@drawable/edittext_border"
+        android:padding="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btn_run"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="运行道法"
+            android:layout_margin="2dp"
+            android:background="#8B4513"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="清空天地"
+            android:layout_margin="2dp"
+            android:background="#CD853F"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_demo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="演示秘籍"
+            android:layout_margin="2dp"
+            android:background="#D2691E"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_export"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="导出成果"
+            android:layout_margin="2dp"
+            android:background="#A0522D"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#F5F5DC"
+        android:padding="12dp"
+        android:textSize="12sp"
+        android:textColor="#8B4513"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

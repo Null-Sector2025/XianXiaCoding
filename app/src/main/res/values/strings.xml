@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">修仙编程</string>
+    <string name="hint_input">在此输入修仙代码...</string>
+    <string name="btn_run">运行道法</string>
+    <string name="btn_clear">清空天地</string>
+    <string name="btn_demo">演示秘籍</string>
+    <string name="btn_export">导出成果</string>
+</resources>
